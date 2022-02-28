@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Banking Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header section start here-->
+    <header>
+    <div class="header-text-1">Simple Banking Application</div>
+    <div class="header-text-2">With HTML, CSS & javascript</div>
+    </header>
+    <!--header section end here-->
+    <!--main section start here-->
+    <main>
+    <div class="container">
+        <div class="output-section">
+            <div class="output-container-1">
+            <div class="text">Deposite</div>
+            <div class="text">$<span id="deposite-output">00</span></div>
+            </div>
+            <div class="output-container-2">
+            <div class="text">Widraw</div>
+            <div class="text">$<span id="widraw-output">00</span></div>
+            </div>
+            <div class="output-container-3">
+            <div class="text">Balance</div>
+            <div class="text">$<span id="balance-output">00</span></div>
+            </div>
+        </div>
+        <div class="deposite-and-widraw-container">
+            <div class="deposite-container">
+                <div class="text">Diposite</div>
+                <div class="text-1">Deposite On Your Account</div>
+                <div class="inputField">
+                    <input type="text" name="deposite" id="deposite-to-account" placeholder="Deposite...">
+                    <button onclick="deposite()">Deposite</button>
+                </div>
+            </div>
+            <div class="widraw-container">
+                <div class="text">Widraw</div>
+                <div class="text-1">Widraw From Your Account</div>
+                <div class="inputField">
+                    <input type="text" name="widraw" id="widraw-from-account" placeholder="Widraw...">
+                    <button onclick="widraw()">Widraw</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <!--main section end here-->
+    <!--footer section start here-->
+    <footer>
+        <div class="footer">
+            Copyright &copy; Simple Banking Appilaction<br>All Rights Reserved.
+        </div>
+    </footer>
+    <!-- footer section end here -->
+
+
+
+
+    <!--javascript file added here-->
+    <script src="script.js"></script>
+</body>
+</html>

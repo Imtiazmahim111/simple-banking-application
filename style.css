@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: aliceblue;
+    color: black;
+    text-align: center;
+    padding: 15px  30px;
+}
+.header-text-1{
+    font-size: 35px;
+}
+.header-text-2{
+    font-size: 23px;
+}
+main{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.output-section{
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-around;
+}
+.output-container-1{
+    padding: 10px 20px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 15px rgba(37, 31, 31, 0.5);
+    color: green;
+    width: 30%;
+    border-radius: 5px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.output-container-1 .text{
+    font-size: 40px;
+}
+.output-container-2{
+    box-shadow: 0px 0px 15px rgba(37, 31, 31, 0.5);
+
+    padding: 10px 20px;
+    background-color:aliceblue;
+    color: red;
+    width: 30%;
+    border-radius: 5px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.output-container-2 .text{
+    font-size: 40px;
+}
+.output-container-3{
+    box-shadow: 0px 0px 15px rgba(37, 31, 31, 0.5);
+    padding: 10px 20px;
+    background-color: aliceblue;
+    color: blue;
+    width: 30%;
+    border-radius: 5px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.output-container-3 .text{
+    font-size: 40px;
+}
+.deposite-and-widraw-container{
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.deposite-container{
+   width: 40%;
+   padding: 10px 20px;
+   border: 3px solid black;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+}
+.deposite-container .text{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 40px;
+    color: green;
+}
+.deposite-container .text-1{
+    font-size: 19px;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(57, 102, 57);
+}
+.deposite-container .inputField{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.deposite-container .inputField hr{
+    margin: 10px 0;
+}
+.deposite-container .inputField input{
+    width: 70%;
+    padding: 5px 0;
+    font-size: 16px;
+    outline:none;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-left: 7px;
+}
+.deposite-container .inputField button{
+    background-color: green;
+    margin: 10px auto;
+    color: white;
+    padding: 5px 12px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.deposite-container .inputField button:hover{
+    background: rgb(5, 110, 5);
+}
+.widraw-container{
+   width: 40%;
+   padding: 10px 20px;
+   border: 3px solid black;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+}
+.widraw-container .text{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 600;
+    color: red;
+}
+.widraw-container .text-1{
+    font-size: 19px;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(57, 102, 57);
+}
+
+.widraw-container .inputField{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.widraw-container .inputField hr{
+    margin: 10px 0;
+}
+.widraw-container .inputField input{
+    width: 70%;
+    padding: 5px 0;
+    font-size: 16px;
+    outline:none;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-left: 7px;
+}
+.widraw-container .inputField button{
+    background-color: red;
+    margin: 10px auto;
+    color: white;
+    padding: 5px 12px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/*footer styling*/
+footer{
+    text-align: center;
+    padding:10px 0;
+    background-color: aliceblue;
+    color: black;
+}
+@media (max-width:700px){
+    
+    .deposite-container .inputField{
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .widraw-container .inputField{
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .deposite-container .inputField input{
+        width: 100%;
+        padding: 5px 0;
+        font-size: 16px;
+        outline:none;
+        border: none;
+        border-radius: 5px;
+        border: 2px solid #000;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        padding-left: 7px;
+    }
+    .widraw-container .inputField input{
+        width: 100%;
+        padding: 5px 0;
+        font-size: 16px;
+        outline:none;
+        border: none;
+        border-radius: 5px;
+        border: 2px solid #000;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        padding-left: 7px;
+    }
+    .header-text-2{
+
+    font-size: 20px;   
+ }
+ .header-text-1{
+     font-size: 25px;
+ }
+    .output-section{
+        display: grid;
+        grid-template-columns: repeat(3);
+        grid-gap: 30px;
+    }
+    .output-container-1 .text{
+        font-size: 30px;
+    }
+    .output-container-2 .text{
+        font-size: 30px;
+    }
+    .output-container-3 .text{
+        font-size: 30px;
+    }
+    .output-container-1{
+        width: 400px;
+    }
+    .output-container-2{
+        width: 400px;
+    }
+    .output-container-3{
+        width: 400px;
+    }
+    .deposite-and-widraw-container{
+        display: grid;
+        grid-template-columns: repeat(2);
+        grid-gap: 30px;
+    }
+    .deposite-container{
+        width: 400px;
+    }
+    .widraw-container{
+        width: 400px;
+    }
+    
+}
+@media (max-width:430px){
+    .output-section{
+        display: grid;
+        grid-template-columns: repeat(3);
+        grid-gap: 30px;
+        place-items: center;
+    }
+    .output-container-1{
+        width: 300px;
+    }
+    .output-container-2{
+        width: 300px;
+    }
+    .output-container-3{
+        width: 300px;
+    }
+    .deposite-and-widraw-container{
+        display: grid;
+        grid-template-columns: repeat(2);
+        grid-gap: 30px;
+        place-items: center;
+    }
+    .deposite-container{
+        width: 300px;
+    }
+    .widraw-container{
+        width: 300px;
+    }
+    .header-text-1{
+        font-size: 20px;
+    }
+    .header-text-2{
+        font-size: 15px;
+    }
+
+}
