@@ -10,6 +10,8 @@ function deposite() {
 function widraw() {
     let widrawValue = document.querySelector('#widraw-from-account');
     let widrawOutput = document.querySelector('#widraw-output');
+    let balanceOutput = document.querySelector('#balance-output');
     widrawOutput.innerText = Number(widrawOutput.innerText) + Number(widrawValue.value);
-   widrawValue.value = "";
+    balanceOutput.innerText = Number(balanceOutput.innerText) - Number(widrawValue.value);
+    widrawValue.value = "";
 }
